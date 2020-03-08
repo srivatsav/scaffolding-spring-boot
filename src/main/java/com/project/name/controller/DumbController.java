@@ -11,6 +11,6 @@ public class DumbController {
 
     @GetMapping
     private String sendDumbMessage(@RequestParam String name) {
-        return "Hello " + name;
+        return "Hello " + name +"!";
     }
 }
