@@ -1,0 +1,3 @@
+# Application server config.
+server:
+  port: 8081
